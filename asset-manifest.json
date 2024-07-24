@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.f2188d12.css",
-    "main.js": "/static/js/main.714addf6.js",
+    "main.js": "/static/js/main.d56a86be.js",
     "static/js/453.17fd66ab.chunk.js": "/static/js/453.17fd66ab.chunk.js",
     "static/media/my_picture.JPG": "/static/media/my_picture.5d2d42043451b62caf2a.JPG",
-    "static/media/Chinazor_CV.pdf": "/static/media/Chinazor_CV.81050f0a1a6adb123541.pdf",
+    "static/media/Chinazor_Okafor.pdf": "/static/media/Chinazor_Okafor.1cfc8c1ecba1d22b270a.pdf",
     "index.html": "/index.html",
     "main.f2188d12.css.map": "/static/css/main.f2188d12.css.map",
-    "main.714addf6.js.map": "/static/js/main.714addf6.js.map",
+    "main.d56a86be.js.map": "/static/js/main.d56a86be.js.map",
     "453.17fd66ab.chunk.js.map": "/static/js/453.17fd66ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2188d12.css",
-    "static/js/main.714addf6.js"
+    "static/js/main.d56a86be.js"
   ]
 }
