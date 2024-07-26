@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../../assets/Chinazor_CV.pdf'
+import Resume from '../../assets/Chinazor_Okafor.pdf'
 
 const Data = () => {
     return (
