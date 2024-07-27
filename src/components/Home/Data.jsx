@@ -8,9 +8,8 @@ const Data = () => {
                 Chinazor Okafor
             </h1>
             <h3 className="home_subtitle">Full Stack Developer</h3>
-            <p className="home_description">I am a highly skilled and innovative Full Stack Developer.
-                An expert in designing and developing cutting-edge, robust software solutions by leveraging
-                the power of JavaScript frameworks and libraries for Frontend, and .NET for Backend development.</p>
+            <p className="home_description">I am a Full Stack developer leveraging JavaScript frameworks for frontend and .NET for backend to build
+            and maintain innovative software applications that impact people's lives.</p>
             <a download='' href={Resume} className="button button--flex">
                 Download CV
                 <svg
