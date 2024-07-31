@@ -22,8 +22,10 @@ const Portfolio = () => {
                 </div>
 
                 <div className="services_content">
-                    <h3 className="services_title">PORTFOLIO 3</h3>
-                    <p className="services_modal-description">Coming soon...</p>
+                    <h3 className="services_title">BRAINWAVE</h3>
+                    <p className="services_modal-description"><b>Built with React.js</b>, this AI-themed web application shows the work of an AI company called Brainwave, detailing their services and the subscriptions involved</p>
+
+                    <a href='https://lively-forest-00bedce0f.5.azurestaticapps.net' target='_blank' rel='noopener noreferrer' className='services_button'>View app <i className='uil uil-arrow-right services_button-icon'></i></a>
                 </div>
 
                 <div className="services_content">
