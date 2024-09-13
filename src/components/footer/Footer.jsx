@@ -28,7 +28,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/frai.dee/" className="footer_social-link" target='_blank' rel="noreferrer noopener">
                         <i className="bx bxl-instagram"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/chinazor-okafor" className="footer_social-link" target='_blank' rel="noreferrer noopener">
+                    <a href="https://www.linkedin.com/in/fredrick-okafor" className="footer_social-link" target='_blank' rel="noreferrer noopener">
                         <i className="bx bxl-linkedin"></i>
                     </a>
                 </div>
