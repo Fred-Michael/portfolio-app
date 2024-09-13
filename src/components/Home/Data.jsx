@@ -1,11 +1,11 @@
 import React from 'react'
-import Resume from '../../assets/Chinazor_Okafor.pdf'
+import Resume from '../../assets/Fredrick_Okafor.pdf'
 
 const Data = () => {
     return (
         <div className="home_data">
             <h1 className="home_title">
-                Chinazor Okafor
+                Fredrick Okafor
             </h1>
             <h3 className="home_subtitle">Full Stack Developer</h3>
             <p className="home_description">I am a Full Stack developer leveraging JavaScript frameworks for frontend and .NET for backend to build
