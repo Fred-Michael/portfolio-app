@@ -43,8 +43,10 @@ const Portfolio = () => {
                 </div>
 
                 <div className="services_content">
-                    <h3 className="services_title">PORTFOLIO 6</h3>
-                    <p className="services_modal-description">Coming soon...</p>
+                    <h3 className="services_title">VWITTER</h3>
+                    <p className="services_modal-description">A sleek yet simple Twitter clone built with <b>Vue.js</b> and the Quasar framework. You can post, delete and like a vweet</p>
+
+                    <a href='https://yellow-desert-0d9b90d0f.5.azurestaticapps.net' target='_blank' rel='noopener noreferrer' className='services_button'>View app <i className='uil uil-arrow-right services_button-icon'></i></a>
                 </div>
 
                 <div className="services_content">
