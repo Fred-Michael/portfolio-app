@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.f2188d12.css",
-    "main.js": "/static/js/main.d22f34df.js",
+    "main.js": "/static/js/main.dcb9e546.js",
     "static/js/453.17fd66ab.chunk.js": "/static/js/453.17fd66ab.chunk.js",
     "static/media/my_picture.JPG": "/static/media/my_picture.5d2d42043451b62caf2a.JPG",
     "static/media/Fredrick_Okafor.pdf": "/static/media/Fredrick_Okafor.c75745aa6141b2cdb0e3.pdf",
     "index.html": "/index.html",
     "main.f2188d12.css.map": "/static/css/main.f2188d12.css.map",
-    "main.d22f34df.js.map": "/static/js/main.d22f34df.js.map",
+    "main.dcb9e546.js.map": "/static/js/main.dcb9e546.js.map",
     "453.17fd66ab.chunk.js.map": "/static/js/453.17fd66ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2188d12.css",
-    "static/js/main.d22f34df.js"
+    "static/js/main.dcb9e546.js"
   ]
 }
