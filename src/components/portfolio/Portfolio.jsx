@@ -50,8 +50,10 @@ const Portfolio = () => {
                 </div>
 
                 <div className="services_content">
-                    <h3 className="services_title">PORTFOLIO 7</h3>
-                    <p className="services_modal-description">Coming soon...</p>
+                    <h3 className="services_title">INVOICE APP</h3>
+                    <p className="services_modal-description">A beautifully designed invoice application built with <b>Vue.js</b> and firebase that helps in managing invoice generation, updates, and deletion</p>
+
+                    <a href='https://invoicer-gen.netlify.app/' target='_blank' rel='noopener noreferrer' className='services_button'>View app <i className='uil uil-arrow-right services_button-icon'></i></a>
                 </div>
 
                 <div className="services_content">
