@@ -1,26 +1,30 @@
-import React, { useRef } from 'react'
-import emailjs from '@emailjs/browser'
+import React, { useState } from 'react'
 import './contact.css'
 
 const Contact = () => {
-    const form = useRef();
+    const [result, setResult] = useState("");
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        formData.append("access_key", "9815c9a0-ea5a-4ab8-8319-5c9a5cd193f4");
 
-        emailjs
-        .sendForm('service_5c0wjfd', 'template_5i9easz',
-            form.current, {
-            publicKey: 'Ir7cmNvPN9INi-vfZ',
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
         });
-        e.target.reset();
+
+        const data = await response.json();
+        setResult(data.success ? "Thanks for reaching out. I will get back to you shortly" : "There was an error sending your email. Please try again")
     };
 
     return (
         <section className="contact section" id="contact">
             <h2 className="section_title">Get in touch</h2>
 
-            <form ref={form} onSubmit={sendEmail} className="contact_form">
+            <p style={{textAlign: 'center', marginBottom: '3px'}}>{result}</p>
+
+            <form onSubmit={onSubmit} className="contact_form">
                 <div className="contact_form-div">
                     <label htmlFor='name' className="contact_form-tag">Name</label>
                     <input type="text" name='name' className='contact_form-input' placeholder='Your name'/>

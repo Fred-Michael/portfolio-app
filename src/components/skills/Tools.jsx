@@ -11,7 +11,7 @@ const Tools = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills_name">Git/GitHub/Gitlab</h3>
+                            <h3 className="skills_name">Git</h3>
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@ const Tools = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills_name">Azure DevOps</h3>
+                            <h3 className="skills_name">AWS</h3>
                         </div>
                     </div>
 
@@ -69,7 +69,7 @@ const Tools = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills_name">EF Core</h3>
+                            <h3 className="skills_name">Terraform</h3>
                         </div>
                     </div>
                 </div>

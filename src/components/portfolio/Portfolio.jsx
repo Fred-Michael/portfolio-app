@@ -29,20 +29,6 @@ const Portfolio = () => {
                 </div>
 
                 <div className="services_content">
-                    <h3 className="services_title">VETEMENTS STORE</h3>
-                    <p className="services_modal-description">This e-commerce application <b>built with Angular</b> showcases different items for sale, and simulates integration with Stripe. For testing purposes, USE DUMMY CARD ONLY!</p>
-
-                    <a href='https://ambitious-dune-06392b30f.5.azurestaticapps.net/' target='_blank' rel='noopener noreferrer' className='services_button'>View app <i className='uil uil-arrow-right services_button-icon'></i></a>
-                </div>
-
-                <div className="services_content">
-                    <h3 className="services_title">BLOG APP</h3>
-                    <p className="services_modal-description"><b>Built with Angular</b>, this blog app integrates with Firebase, showing different articles under different categories</p>
-
-                    <a href='https://freddie-blog-base.web.app/' target='_blank' rel='noopener noreferrer' className='services_button'>View app <i className='uil uil-arrow-right services_button-icon'></i></a>
-                </div>
-
-                <div className="services_content">
                     <h3 className="services_title">VWITTER</h3>
                     <p className="services_modal-description">A sleek yet simple Twitter clone <b>built with Vue.js</b> and the Quasar framework. You can post, delete and like a vweet</p>
 

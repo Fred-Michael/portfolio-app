@@ -8,8 +8,7 @@ const Data = () => {
                 Fredrick Okafor
             </h1>
             <h3 className="home_subtitle">Full Stack Developer</h3>
-            <p className="home_description">I am a Full Stack developer leveraging JavaScript frameworks for frontend and .NET for backend to build
-            and maintain innovative software applications that impact people's lives.</p>
+            <p className="home_description">I am a full stack developer leveraging JavaScript frameworks for Frontend, .NET for Backend, and AI tools, to build innovative, cutting-edge software solutions that impact people's lives.</p>
             <a download='' href={Resume} className="button button--flex">
                 Download CV
                 <svg

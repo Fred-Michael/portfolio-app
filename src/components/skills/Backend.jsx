@@ -11,7 +11,7 @@ const Backend = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills_name">.NET Core 3.1+</h3>
+                            <h3 className="skills_name">.NET Framework</h3>
                         </div>
                     </div>
 
@@ -19,7 +19,7 @@ const Backend = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills_name">.NET 6+</h3>
+                            <h3 className="skills_name">.NET 10</h3>
                         </div>
                     </div>
 
