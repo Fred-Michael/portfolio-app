@@ -6,16 +6,27 @@ const Contact = () => {
 
     const onSubmit = async (event) => {
         event.preventDefault();
+        const form = event.target;
         const formData = new FormData(event.target);
         formData.append("access_key", "9815c9a0-ea5a-4ab8-8319-5c9a5cd193f4");
 
-        const response = await fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            body: formData
-        });
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData
+            });
 
-        const data = await response.json();
-        setResult(data.success ? "Thanks for reaching out. I will get back to you shortly" : "There was an error sending your email. Please try again")
+            const data = await response.json();
+
+            if (data.success) {
+                form.reset();
+                setResult("Thanks for reaching out. I will get back to you shortly");
+            } else {
+                setResult("There was an error sending your email. Please try again");
+            }
+        } catch (err) {
+            setResult("Network error. Please check your connection and try again")
+        }
     };
 
     return (
