@@ -1,8 +1,17 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './contact.css'
 
 const Contact = () => {
     const [result, setResult] = useState("");
+    const timerRef = useRef(null);
+
+    const showResult = (message) => {
+        clearTimeout(timerRef.current);
+        setResult(message);
+        timerRef.current = setTimeout(() => setResult(""), 4000);
+    };
+
+    useEffect(() => () => clearTimeout(timerRef.current), []);
 
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -20,12 +29,12 @@ const Contact = () => {
 
             if (data.success) {
                 form.reset();
-                setResult("Thanks for reaching out. I will get back to you shortly");
+                showResult("Thanks for reaching out. I will get back to you shortly");
             } else {
-                setResult("There was an error sending your email. Please try again");
+                showResult("There was an error sending your email. Please try again");
             }
         } catch (err) {
-            setResult("Network error. Please check your connection and try again")
+            showResult("Network error. Please check your connection and try again")
         }
     };
 
